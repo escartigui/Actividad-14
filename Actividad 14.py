@@ -47,6 +47,7 @@ def menu():
             else:
                 Corredores[codigo]['edad'] = edad
                 break
+            rango = input("Ingrese la rango del corredor: (Juvenil, Adulto, Master) ")
         case 2:
          print("\n Listado")
          lista = list(Corredores.items())
